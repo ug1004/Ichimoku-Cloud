@@ -27,7 +27,7 @@ def ichimoku(df):
 
 # 데이터 다운로드
 symbol = "BTC-USD"
-data = yf.download(symbol, start="2020-01-01", end="2021-09-01")
+data = yf.download(symbol, start="2018-01-01", end="2023-03-24")
 
 # 일목균형표 계산
 tenkan_sen, kijun_sen, senkou_span_A, senkou_span_B, chikou_span = ichimoku(data)
